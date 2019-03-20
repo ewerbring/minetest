@@ -1,0 +1,183 @@
+
+@font-face {font-family: Helvetica;
+src: url("HelveNeuBolOut");
+}
+
+@font-face {font-family: America;
+src: url("America.otf");
+}
+
+@font-face {font-family: BeatriceD2;
+src: url("Beatrice/BeatriceDisplay-ExtraboldIt.otf");
+}
+
+
+body {
+
+    background-color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.frame{
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  border: 6px solid black;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  top: 0;
+
+
+}
+
+.scrollbox1{
+  width: 25vw;
+  height: 80vh;
+  left: 10.5vw;
+  position: absolute;
+  border: 3px solid black;
+  overflow: scroll;
+  margin: 0;
+  box-sizing: border-box;
+  top: 15vh;
+  background-color: rgba(0,0,255, 0.5);
+  z-index: 30;
+
+}
+
+.scrollbox2{
+  width: 60vw;
+  height: 80vh;
+  left: 20vw;
+  position: absolute;
+  border: 3px solid black;
+  overflow: scroll;
+  margin: 0;
+  box-sizing: border-box;
+  top: 5vh;
+  background-color: rgba(0,0,255, 0.5);
+  z-index: 40;
+}
+
+
+.scrollbox3{
+  width: 48vw;
+  height: 47vh;
+  left: 44vw;
+  position: absolute;
+  border: 3px solid black;
+  overflow: scroll;
+  margin: 0;
+  box-sizing: border-box;
+  top: 44vh;
+  background-color: rgba(0,0,255, 0.5);
+  z-index: 0;
+
+}
+
+.scrollbox4{
+  width: 50vw;
+  height: 60vh;
+  left: 37vw;
+  position: absolute;
+  border: 3px solid black;
+  overflow: scroll;
+  margin: 0;
+  box-sizing: border-box;
+  top: 35vh;
+background-color: rgba(0, 0,255, 0.5);
+z-index: 10;
+
+
+}
+
+
+.wedding {
+	width: 100%;
+
+overflow-y: scroll;
+display: none;
+}
+
+.wedding2 {
+	width: 100%;
+
+overflow-y: scroll;
+display: none;
+}
+
+.wedding3 {
+	width: 100%;
+
+overflow-y: scroll;
+display: none;
+}
+
+.wedding4 {
+	width: 100%;
+
+overflow-y: scroll;
+display: none;
+}
+
+
+.black {
+  background-color: black;
+}
+
+
+
+
+.flex-item{
+  top:0%;
+  background-color: ;
+  position: absolute;
+  width: 13%;
+  color: yellow;
+  font-size: 1rem;
+  text-align: center;
+  height: 160px;
+
+}
+
+
+
+.lang {
+  visibility: none;
+}
+
+
+.flex-item3{
+  top:5%;
+  background-color: ;
+  position: absolute;
+  width: 10%;
+  color: yellow;
+  font-size: 1rem;
+  text-align: center;
+  height: 160px;
+  left: 90vw;
+
+}
+.list1{font-size: 2rem;}
+
+.scrollbox1, .scrollbox2, .scrollbox3, .scrollbox4 {
+  cursor: move;
+}
+
+.para1
+ {
+   color: black;
+   font-size: 1.5rem;
+   font-family: America;
+   margin: 20px;
+ }
