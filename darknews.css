@@ -101,6 +101,22 @@ z-index: 10;
 }
 
 
+.scrollbox5{
+  width: 35vw;
+  height: 50vh;
+  left: 37.5vw;
+  position: absolute;
+  border: 3px solid black;
+  overflow: scroll;
+  margin: 0;
+  box-sizing: border-box;
+  top: 25vh;
+  background-color: rgba(0,0,255, 0.5);
+  z-index: 50;
+
+}
+
+
 .wedding {
 	width: 100%;
 
@@ -127,6 +143,13 @@ display: none;
 
 overflow-y: scroll;
 display: none;
+}
+
+
+.wedding5 {
+	width: 100%;
+
+overflow-y: scroll;
 }
 
 
